@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "fizzbuzz", "fizzbuzz\fizzbuzz.csproj", "{BC1C8B87-1BDB-4071-9DC6-39778D1F4B36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzzLib", "FizzBuzzLib\FizzBuzzLib.csproj", "{9179305C-4733-4D06-A599-14C7E58CB12B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzzTests", "FizzBuzzTests\FizzBuzzTests.csproj", "{F514D518-F801-4CFA-B422-25771B73D803}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{143D8754-9DD2-4B44-8D98-C86D916915D1}"
+	ProjectSection(SolutionItems) = preProject
+		build\build.bat = build\build.bat
+		build\nant.build = build\nant.build
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{511DEC80-4C9E-4E96-A233-0F1115DCC416}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BC1C8B87-1BDB-4071-9DC6-39778D1F4B36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC1C8B87-1BDB-4071-9DC6-39778D1F4B36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC1C8B87-1BDB-4071-9DC6-39778D1F4B36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC1C8B87-1BDB-4071-9DC6-39778D1F4B36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9179305C-4733-4D06-A599-14C7E58CB12B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9179305C-4733-4D06-A599-14C7E58CB12B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9179305C-4733-4D06-A599-14C7E58CB12B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9179305C-4733-4D06-A599-14C7E58CB12B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F514D518-F801-4CFA-B422-25771B73D803}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F514D518-F801-4CFA-B422-25771B73D803}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F514D518-F801-4CFA-B422-25771B73D803}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F514D518-F801-4CFA-B422-25771B73D803}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
